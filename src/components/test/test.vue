@@ -4,7 +4,7 @@
     <div class="test_wrapper">
       <el-button @click="btnClick">属性可观测</el-button>
       <div class="show_box">{{ show_1 }}</div>
-      <el-button @click="toabc">修改属性</el-button>
+      <el-button @click="toabc">修改属性a</el-button>
     </div>
     <div class="test_wrapper">
       <p>标题：异步</p>
