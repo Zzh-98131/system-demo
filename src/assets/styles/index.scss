@@ -1,0 +1,19 @@
+@import './elements/element-ui.scss';
+@import './elements/svg.scss';
+@import './elements/variables.scss';
+@import './elements/sidebar.scss';
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.chart-wrapper{
+  width: 600px;
+  height: 300px;
+  padding: 10px;
+  border: rgba($color: #000000, $alpha: .5) 1px solid;
+  border-radius: 15px;
+  box-shadow: rgba($color: #000000, $alpha: .3) 2px 2px 5px;
+}
